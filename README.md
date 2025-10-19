@@ -1,4 +1,15 @@
-# Zandronum — Reproducible Windows x64 build (Visual Studio 2022, CMake, Ninja, vcpkg, FMOD Ex)
+# Zandronum — Reproducible x64 build with full audio for Windows
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/platform-Windows%20x64-lightgrey?logo=windows" alt="Platform">
+  <img src="https://img.shields.io/badge/IDE-Visual%20Studio%202022-5C2D91?logo=visualstudio" alt="IDE">
+  <img src="https://img.shields.io/badge/build-CMake%20%2B%20Ninja-blue?logo=cmake" alt="Build system">
+  <img src="https://img.shields.io/badge/tools-Git%20%7C%20Hg-orange?logo=git" alt="Tools">
+</p>
+
+<p align="center">
+  <b>Step‑by‑step guide for a reproducible Windows build of Zandronum with Visual Studio, CMake, Ninja and vcpkg.</b>
+</p>
 
 This repository documents and automates a reproducible Windows x64 build of the multiplayer Doom engine [Zandronum](https://zandronum.com/) using Visual Studio 2022, CMake + Ninja, and vcpkg. It shows how to integrate the legacy audio library FMOD Ex 4.44.64 SDK (required by Zandronum) and how to prepare runtime DLLs so audio works.
 
