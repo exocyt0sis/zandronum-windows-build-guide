@@ -1,0 +1,35 @@
+# Visual Studio / IDE
+.vscode/
+.vs/
+*.suo
+*.user
+*.sdf
+
+# Build artifacts
+/build/
+/bin/
+/obj/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+
+# vcpkg artifacts (do not commit installed binaries)
+/vcpkg_installed/
+CMakeScripts/
+packages/
+
+# FMOD SDK folder — must remain local, do not commit binaries
+/src/fmod/api/*
+!/src/fmod/api/README.md
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
